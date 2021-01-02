@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-express-passport_authentication_system-local-main",
+  "version": "1.0.0",
+  "description": "This repository contains Passport.js Local Strategy Authentication System with Node.js and Express. You also can try it out with cloning this.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app",
+    "start": "node app.js"
+  },
+  "author": "imVihangaSilva",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.11.9",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
